@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Calculator</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+  
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div class="calculator">
+
+        <!-- display -->
+        <div class="calculator__display">0</div>
+
+        <div class="calculator__keys">
+
+
+          <button data-key="7" class="but" data-type="number">7</button>
+          <button data-key="8" class="but" data-type="number">8</button>
+          <button data-key="9" class="but" data-type="number">9</button>
+          <button data-key="plus" class="but" data-type="operator">+</button>
+          <br>
+          <button data-key="4" class="but" data-type="number">4</button>
+          <button data-key="5" class="but" data-type="number">5</button>
+          <button data-key="6" class="but" data-type="number">6</button>
+          <button data-key="minus" class="but" data-type="operator">-</button>
+          <br>
+          <button data-key="1" class="but" data-type="number">1</button>
+          <button data-key="2" class="but" data-type="number">2</button>
+          <button data-key="3" class="but" data-type="number">3</button>
+          <button data-key="times" class="but" data-type="operator">&times;</button>
+          <br>
+          <button data-key="divide" class="but" data-type="operator">÷</button>
+          <button data-key="0" class="but" data-type="number">0</button>
+          <button class="decimal" id="buto"  data-type="number">.</button>
+          <button class="clear" id="buto" data-type="clear">C</button>
+          <br>
+          <p class="brand">casio</p>
+          <button data-key="equal" id="eq" class="but" data-type="equal">=</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="cal.js"></script>
+  </body>
+</html>

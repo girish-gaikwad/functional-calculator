@@ -1,0 +1,122 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ecf0f3; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    outline: none;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #ffffff,inset 5px 5px 12px rgba(0,0,0,.16);
+    border: none; */
+}
+.calculator{
+    background-color: #ecf0f3;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px #ffffff,5px 5px 12px rgba(0,0,0,.16);
+    
+
+}
+.calculator__display{
+    text-align: end;
+    background-color: #ecf0f3;
+    padding: 40px;
+    border-radius: 48px;
+    /* box-shadow: inset 5px 5px 12px #ffffff,5px 5px 12px rgba(0,0,0,.16); */
+
+    box-shadow: inset -5px -5px 12px #ffffff,inset 5px 5px 12px rgba(0,0,0,.16);
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+#yo:hover{
+    background-color:rgb(165, 213, 92);
+}
+#yo:active{
+    background-color: green;
+    color: rgb(203, 78, 78);
+}
+
+/* #yo1,#yo2,#yo3,#yo4 :hover{
+    background-color: yellowgreen;
+    color: aqua;
+} */
+
+
+.but{
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+    border-radius: 48px;
+    box-shadow: inset -5px -5px 12px #ffffff,inset 5px 5px 12px rgba(0,0,0,.16);
+    border: none;
+    font-size: 20px;
+    transition: 0.15ms;
+}
+
+#buto{
+    /* padding: 50%; */
+    /* background-color: aqua; */
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+    border-radius: 48px;
+    box-shadow: inset -5px -5px 12px #ffffff,inset 5px 5px 12px rgba(0,0,0,.16);
+    border: none;
+    font-size: 20px;
+    transition: 0.15ms;
+
+
+
+}
+.brand{
+    font-size: 30px;
+    padding-left: 30px;
+    padding-right: 74px;
+    padding-left: 30px;
+    font-weight: 800;
+    font-family:sans-serif;
+    display: inline-block;
+}
+#eq{
+    width: 15rem;
+}
+#buto:active{
+    background-color: antiquewhite;
+    opacity: 0.8;
+}
+#buto:hover{
+    background-color: rgb(169, 82, 82);
+    color: gray;
+}
+.but:active{
+    background-color: antiquewhite;
+    opacity: 0.8;
+}
+.but:hover{
+    background-color: rgb(169, 82, 82);
+    color: gray;
+}
+.dis{
+    margin-left: 13px;
+    width: 435px;
+    height: 70px;
+    border-radius: 48px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #ffffff,inset 5px 5px 12px rgba(0,0,0,.16);
+    border: none;
+    text-align: end;
+    color: gray;
+    font-size: 50px;
+    padding-right: 19px;
+    
+}
